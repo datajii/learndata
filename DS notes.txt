@@ -1,0 +1,41 @@
+
+
+DS Learning
++++++++++++
+
+
+Anaconda Navigator
+
++ version 2.4.0
++ free to use, no license terms
++ Popular DS platform
++ Anaconda's combination of package management, extensive library ecosystem, cross-platform compatibility, ease of use, community support, and focus on data science make it a popular choice for data scientists.
++ During Installtion,  it will install Python automatically, no need to install pYthon separately.
+
+
+
+Jupyter Notebook 
+
++ widely used for DS,	
++ is an open-source web application that allows users to create and share documents called notebooks. These notebooks contain live code, equations, visualizations, and narrative text.
++ URL : http://localhost:8889/tree?
++ ipykernel is a Python package that provides the IPython kernel for Jupyter Notebook, ipykernel handles the execution of that code and returns the output to the notebook interface.
+
+
+
+Github
+=======
+
++ https://github.com/datajii/learndata
+
+
+
+
+jupyter notebook --notebook-dir=/Users/jigarpathak/DS
+
+jupyter notebook --notebook-dir= /Users/jigarpathak/Oracle Content - Accounts/Oracle Content/DS learning
+
+ORACLE
+======
+
++ Oracle Data Science Service is a fully managed, self-service platform for data science teams to build, train, and manage machine learning (ML) models in Oracle Cloud Infrastructure.
