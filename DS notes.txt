@@ -39,3 +39,98 @@ ORACLE
 ======
 
 + Oracle Data Science Service is a fully managed, self-service platform for data science teams to build, train, and manage machine learning (ML) models in Oracle Cloud Infrastructure.
+
+
+Python
+=====
+
++ evolved in 1992
++ Python was created by Guido van Rossum, a Dutch programmer
++ Its mainly developed for web developement.
++ As on todays Python has 1000+ data science libraries , thats why its first preference for DS
+
+
+git
+====
+
+/Users/jigarpathak/DS/
+
+(base) jigarpathak@jigarpathak-mac Oracle Content % cd /Users/jigarpathak/DS
+
+
+git init
+
+
+(base) jigarpathak@jigarpathak-mac DS % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/jigarpathak/DS/.git/
+
+
+
+(base) jigarpathak@jigarpathak-mac DS % ls -lahrt
+total 32
+drwxr-xr-x+ 99 jigarpathak  staff   3.1K Jun  7 17:50 ..
+drwxr-xr-x   3 jigarpathak  staff    96B Jun  7 17:53 .ipynb_checkpoints
+-rw-r--r--   1 jigarpathak  staff   2.2K Jun  7 17:56 day1.ipynb
+-rw-r--r--@  1 jigarpathak  staff   1.3K Jun  7 18:35 DS notes.txt
+-rw-r--r--@  1 jigarpathak  staff   6.0K Jun  7 18:47 .DS_Store
+drwxr-xr-x@  7 jigarpathak  staff   224B Jun  7 19:39 .
+drwxr-xr-x@  9 jigarpathak  staff   288B Jun  7 19:39 .git
+
+
+
+(base) jigarpathak@jigarpathak-mac DS % git add .
+
+(base) jigarpathak@jigarpathak-mac DS % git status
+On branch master
+
+No commits yet
+
+(base) jigarpathak@jigarpathak-mac DS % git remote add origin https://github.com/datajii/learndata.git
+
+
+(base) jigarpathak@jigarpathak-mac DS % git config --global user.email jeegarpathak@gmail.com
+(base) jigarpathak@jigarpathak-mac DS % git config --global user.name jeegarpathak
+
+
+
+base) jigarpathak@jigarpathak-mac DS % git commit -m "initial commit"
+[master (root-commit) d10c954] initial commit
+ 4 files changed, 333 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .ipynb_checkpoints/day1-checkpoint.ipynb
+ create mode 100644 DS notes.txt
+ create mode 100644 day1.ipynb
+ 
+ (base) jigarpathak@jigarpathak-mac DS % git push -u origin master
+Username for 'https://github.com': datajii
+Password for 'https://datajii@github.com':
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.85 KiB | 949.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/datajii/learndata/pull/new/master
+remote:
+To https://github.com/datajii/learndata.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+(base) jigarpathak@jigarpathak-mac DS % git commit -m "initial commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+(base) jigarpathak@jigarpathak-mac DS %
+
