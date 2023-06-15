@@ -134,3 +134,20 @@ Your branch is up to date with 'origin/master'.
 nothing to commit, working tree clean
 (base) jigarpathak@jigarpathak-mac DS %
 
+
+
+git pull origin maaster
+
+git push -u origin main
+
+
+(base) jigarpathak@jigarpathak-mac DS % git remote -v
+origin	https://github.com/datajii/learndata.git (fetch)
+origin	https://github.com/datajii/learndata.git (push)
+(base) jigarpathak@jigarpathak-mac DS %
+
+
+git pull --rebase origin main
+
+git push -u origin main
+
