@@ -17,6 +17,7 @@ Anaconda Navigator
 Jupyter Notebook 
 
 + widely used for DS,	
++ its workspace to write python program
 + is an open-source web application that allows users to create and share documents called notebooks. These notebooks contain live code, equations, visualizations, and narrative text.
 + URL : http://localhost:8889/tree?
 + ipykernel is a Python package that provides the IPython kernel for Jupyter Notebook, ipykernel handles the execution of that code and returns the output to the notebook interface.
@@ -87,6 +88,14 @@ drwxr-xr-x@  7 jigarpathak  staff   224B Jun  7 19:39 .
 drwxr-xr-x@  9 jigarpathak  staff   288B Jun  7 19:39 .git
 
 
+++++++++++++++++++++
+
+git status
+git add .
+git commit -m "upto 17dec"
+git push -u origin main
+
+++++++++++++++++++++
 
 (base) jigarpathak@jigarpathak-mac DS % git add .
 
